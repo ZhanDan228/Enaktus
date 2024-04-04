@@ -253,4 +253,18 @@ h1{
   .scrolling-text:hover p {
     animation-play-state: paused;
   }
-  
+
+
+/* ================================== */
+
+.stepByStep{
+    width: 100%;
+    gap:3%
+   }
+   .stepByStep p{
+    font-size: 1rem;
+   }
+
+   .stepByStep .img{
+    width: 30%;
+   }
