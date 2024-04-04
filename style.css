@@ -162,7 +162,7 @@ h1{
     position: fixed;
     z-index: 100;
     top: 1.5rem;
-    right: 1rem;
+    right: 3rem;
     display: none;
     padding: 4px;
     border: black solid 1px;
@@ -198,3 +198,59 @@ h1{
   .showMenu {
     transform: translateY(0);
   }
+
+
+
+/* ========================== */
+
+.stepByStep{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+}
+.stepByStep .img{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.stepByStep .img img{
+    width: 100%;
+}
+.stepByStep .img p{
+    text-align: center;
+
+   }
+
+
+/* ================================= */
+.thirdSection{
+    margin-top: 4%;
+}
+.thirdSection h3{
+    color: red;
+    font-size: 4rem;
+    width: 40%;
+    text-align: center;
+}
+
+
+.scrolling-text {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .scrolling-text p {
+    white-space: nowrap;
+    animation: marquee 60s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .scrolling-text:hover p {
+    animation-play-state: paused;
+  }
+  

@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <section class="firstSection">
+    <section class="firstSection" id="home">
         <div class="navbar display">
             <img src="./images/normLogo.png" class="logo"/>
             <ul class="display gap list">
@@ -23,9 +23,9 @@
             <li class="pointer">Partnership</li>
             </ul> 
             <ul class="menu">
-                <li><a class="menuItem" href="#">Home</a></li>
-                <li><a class="menuItem" href="#">Profile</a></li>
-                <li><a class="menuItem" href="#">About</a></li>
+                <li><a class="menuItem" href="#home">Домой</a></li>
+                <li><a class="menuItem" href="#second">О проекте</a></li>
+                <li><a class="menuItem" href="#tutorial">Как делать посуду?</a></li>
                 <li><a class="menuItem" href="#">Contacts</a></li>
               </ul>
               <button class="hamburger">
@@ -54,8 +54,8 @@
             
         </div>
     </section>
-    <section class="secondSection">
-        <h2>О проекте<br>
+    <section class="secondSection" id="second">
+        <h2><span class="h2">О проекте</span><br>
             <span>Как все началось?</span>
         </h2>
         <p class="aboutProject">
@@ -83,7 +83,7 @@ Enaktus KEU - это пример того, как неравнодушные л
 
 Команда Enaktus KEU - это будущее Кыргызстана!
         </p>
-        <!-- <div class="videos">
+        <div class="videos" id="tutorial">
         <video width="320" height="240" controls>
             <source src="./videos/C418 - Dry Hands - Minecraft Volume Alpha.mp4" type="video/mp4">
             <source src="./videos/C418 - Moog City 2 (Minecraft Volume Beta).mp4" type="video/mp4">
@@ -91,10 +91,32 @@ Enaktus KEU - это пример того, как неравнодушные л
           <video width="320" height="240" controls>
             
             <source src="./videos/C418 - Moog City 2 (Minecraft Volume Beta).mp4" type="video/mp4">
-          </video> -->
+          </video>
           </div>
-    </section>
+          <div class="stepByStep">
+            <div class="img"><img src="./images/steps/firstStep.avif" alt=""><p>Fold the paper in half and unfold</p></div>
+            <div class="img"><img src="./images/steps/secondStep.avif" alt=""><p> Fold the top corners to the centre line</p></div>
+            <div class="img"><img src="./images/steps/thirdStep.avif" alt=""><p> Fold the top sides to the centre line</p></div>
+            <div class="img"><img src="./images/steps/fourthStep.avif" alt=""><p> Fold in half along the centre line</p></div>
+            <div class="img"><img src="./images/steps/fivethPage.avif" alt=""><p>Fold the wings along the centre line</p></div>
+            <div class="img"><img src="./images/steps/sixthPage.avif" alt=""><p>Give it a throw!
+            </p></div>
+            
+            
+            
+            
+            
+            
 
+          </div>
+        </section>
+    <section class="thirdSection">
+        <h3>Новости</h3> -->
+        <div style="background-color: aqua;"  class="scrolling-text" onmouseover="startScroll()" onmouseout="stopScroll()">
+            <p>Сдесь будут ваши новости</p>
+          </div>
+          
+    </section>
 </body>
 <script src="./main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -23,3 +23,15 @@ menuItems.forEach(
     menuItem.addEventListener("click", toggleMenu);
   }
 )
+
+
+
+function startScroll() {
+  var scrollingText = document.querySelector('.scrolling-text p');
+  scrollingText.style.animationPlayState = 'running';
+}
+
+function stopScroll() {
+  var scrollingText = document.querySelector('.scrolling-text p');
+  scrollingText.style.animationPlayState = 'paused';
+}
