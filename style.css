@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    max-width: 100% !important;
+}
+
+
+/* ================================================== */
+
+
+
+.firstSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul{
+    margin-top: -1%;
+    margin-right: 19%;
+}
+
+
+.logo{
+    width: 14%;
+    margin-top: -2%;
+    margin-left: 8%;
+}
+
+
+.welcomePage{
+    width: 100%;
+}
+
+
+h1{
+    font-size: 2.5rem;
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+.welcomePage .left{
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 30%;
+}
+
+.welcomePage .left p{
+    width: 110%;
+    margin-top: 3%;
+    font-size: 170%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcomePage .right{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.welcomePage .right img{
+    border-radius: 5%;
+    width: 45%;
+}
+
+.btn-success{
+    width: 30%;
+    margin-left: 15%;
+}
+
+/* ====================================================== */
+
+.secondSection{
+    width: 100%;
+}
+
+.secondSection h2{
+    margin-left: 42%;
+    margin-top: 6%;
+}
+
+.secondSection h2 span{
+    margin-left: -8%;
+}
+
+.secondSection .aboutProject{
+    width: 60%;
+    margin-left: 22%;
+}
+
+
+.videos{
+    display: flex;
+    width: 60%;
+    gap: 10%;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+/* ----------------------------------------------- */
+
+
+.display{
+    display: flex;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.pointer:hover{
+    color: green;
+}
+
+.gap{
+    gap: 13%;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.space-around{
+    justify-content: space-around   ;
+}
