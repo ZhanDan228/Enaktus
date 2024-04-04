@@ -40,3 +40,48 @@
     width: 100%;
   }
   }
+
+
+
+  @media (max-width: 430px) {
+    .logo{
+     width: 40%;
+     margin-top: -10%;
+    }
+     h1{
+     font-size: 3rem;
+     margin-left: -10%;
+    } 
+     .list{
+     display: none;
+   }
+   .moreInfoBtn{
+     width: 50%;
+     margin-left: -0%;
+   }
+   .hamburger{
+     display: block;
+   }
+   .welcomePage{
+     display: flex;
+     flex-direction: column;
+   }
+   .welcomePage .left{
+     margin-left: 35%;
+     width: 60%;
+   }
+   .welcomePage .left p{
+     width: 110%;
+     font-size: 1rem;
+     margin-left: -30%;
+     text-align: center;
+   }
+   .firstSection .right{
+     margin-top: 10%;
+     margin-left: 15%;
+     width: 70%;
+   }
+   .firstSection .right img{
+     width: 100%;
+   }
+   }
