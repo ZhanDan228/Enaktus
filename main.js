@@ -35,3 +35,7 @@ function stopScroll() {
   var scrollingText = document.querySelector('.scrolling-text p');
   scrollingText.style.animationPlayState = 'paused';
 }
+
+
+
+// ---------------------------------------------------------
