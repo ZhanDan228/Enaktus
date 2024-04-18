@@ -6,34 +6,34 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./adaptive.css">
-
+    <link rel="shortcut icon" href="./images/leaves-1571.png" />
     <title>OurProject</title>
 </head>
 <body>
-    
+  <div class="navbar display">
+    <img src="./images/normLogo.png" class="logo"/>
+    <ul class="display gap list">
+    <li class="pointer"><a href="#home">Home</a></li>
+    <li class="pointer"><a href="#second">About project</a></li>
+    <li class="pointer"><a href="#tutorial">Production</a></li>
+    <li class="pointer">Contacts</li>
+    <li class="pointer">News</li>
+    <li class="pointer">Partnership</li>
+    </ul> 
+    <ul class="menu">
+        <li><a class="menuItem" href="#home">Домой</a></li>
+        <li><a class="menuItem" href="#second">О проекте</a></li>
+        <li><a class="menuItem" href="#tutorial">Как делать посуду?</a></li>
+        <li><a class="menuItem" href="#">Contacts</a></li>
+      </ul>
+      <button class="hamburger">
+        <!-- material icons https://material.io/resources/icons/ -->
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+      </button>
+</div>
     <section class="firstSection" id="home">
-        <div class="navbar display">
-            <img src="./images/normLogo.png" class="logo"/>
-            <ul class="display gap list">
-            <li class="pointer">Home</li>
-            <li class="pointer">About project</li>
-            <li class="pointer">Production</li>
-            <li class="pointer">Contacts</li>
-            <li class="pointer">News</li>
-            <li class="pointer">Partnership</li>
-            </ul> 
-            <ul class="menu">
-                <li><a class="menuItem" href="#home">Домой</a></li>
-                <li><a class="menuItem" href="#second">О проекте</a></li>
-                <li><a class="menuItem" href="#tutorial">Как делать посуду?</a></li>
-                <li><a class="menuItem" href="#">Contacts</a></li>
-              </ul>
-              <button class="hamburger">
-                <!-- material icons https://material.io/resources/icons/ -->
-                <i class="menuIcon material-icons">menu</i>
-                <i class="closeIcon material-icons">close</i>
-              </button>
-        </div>
+
         <div class="welcomePage display space-around">
             <div class="left display flex-direction">
                 <h1>
@@ -93,25 +93,18 @@ Enaktus KEU - это пример того, как неравнодушные л
             <source src="./videos/C418 - Moog City 2 (Minecraft Volume Beta).mp4" type="video/mp4">
           </video>
           </div>
-          <div class="stepByStep">
-            <div class="img"><img src="./images/steps/firstStep.avif" alt=""><p>Fold the paper in half and unfold</p></div>
-            <div class="img"><img src="./images/steps/secondStep.avif" alt=""><p> Fold the top corners to the centre line</p></div>
-            <div class="img"><img src="./images/steps/thirdStep.avif" alt=""><p> Fold the top sides to the centre line</p></div>
-            <div class="img"><img src="./images/steps/fourthStep.avif" alt=""><p> Fold in half along the centre line</p></div>
-            <div class="img"><img src="./images/steps/fivethPage.avif" alt=""><p>Fold the wings along the centre line</p></div>
-            <div class="img"><img src="./images/steps/sixthPage.avif" alt=""><p>Give it a throw!
+          <div class="stepByStep">            
+            <div class="img slide"><img src="./images/steps/firstStep.avif" alt=""><p>Fold the paper in half and unfold</p></div>
+            <div class="img slide"><img src="./images/steps/secondStep.avif" alt=""><p> Fold the top corners to the centre line</p></div>
+            <div class="img slide"><img src="./images/steps/thirdStep.avif" alt=""><p> Fold the top sides to the centre line</p></div>
+            <div class="img slide"><img src="./images/steps/fourthStep.avif" alt=""><p> Fold in half along the centre line</p></div>
+            <div class="img slide"><img src="./images/steps/fivethPage.avif" alt=""><p>Fold the wings along the centre line</p></div>
+            <div class="img slide"><img src="./images/steps/sixthPage.avif" alt=""><p>Give it a throw!
             </p></div>
-            
-            
-            
-            
-            
-            
-
           </div>
         </section>
     <section class="thirdSection">
-        <h3>Новости</h3> -->
+        <h3>Новости</h3>
         <div style="background-color: aqua;"  class="scrolling-text" onmouseover="startScroll()" onmouseout="stopScroll()">
             <p>Сдесь будут ваши новости</p>
           </div>
