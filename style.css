@@ -205,18 +205,19 @@ h1{
 
 .stepByStep{
     display: flex;
-    flex-wrap: wrap;
     gap: 5%;
-    justify-content: center;
+    overflow-x: auto;
+}
+.stepByStep::-webkit-scrollbar {
+    display: none; /* скрыть скроллбар */
 }
 .stepByStep .img{
-    width: 15%;
+    width: 70%;
+
     display: flex;
     flex-direction: column;
 }
-.stepByStep .img img{
-    width: 100%;
-}
+
 .stepByStep .img p{
     text-align: center;
 
